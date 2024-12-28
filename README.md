@@ -2,7 +2,7 @@
 
 [![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/gliner-litserve)
 
-[GLiNER](https://huggingface.co/knowledgator/modern-gliner-bi-large-v1.0), a flexible Named Entity Recognition model using a bi-encoder architecture ([ModernBERT-large](https://huggingface.co/answerdotai/ModernBERT-large) and [BGE-base-en](https://huggingface.co/BAAI/bge-base-en-v1.5)), overcomes limitations of traditional NER and LLMs by enabling recognition of unlimited entities with faster inference and better generalization, while offering superior efficiency compared to DeBERTa-based models. This project demonstrates the use of the GLiNER model for the Named Entity Recognition (NER) task served using LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
+[GLiNER](https://huggingface.co/knowledgator/modern-gliner-bi-large-v1.0), a flexible Named Entity Recognition model using a bi-encoder architecture ([ModernBERT-large](https://huggingface.co/answerdotai/ModernBERT-large) and [BGE-base-en](https://huggingface.co/BAAI/bge-base-en-v1.5)), overcomes limitations of traditional NER and LLMs by enabling recognition of unlimited entities with faster inference and better generalization, while offering superior efficiency compared to DeBERTa-based models. This project demonstrates using the GLiNER model for the Named Entity Recognition (NER) task served using LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
 
 ## Project Structure
 
@@ -35,7 +35,7 @@ Now, you can see the model output based on the input text and labels. The model 
 
 ## Usage
 
-The project can be used to serve the GLiNER model using LitServe. Here, the model is used to predict named entities in the text based on the labels provided. This suggests potential applications in information extraction, news aggregation, and content summarization.
+The project can be used to serve the GLiNER model using LitServe. Here, the model predicts named entities in the text based on the labels provided. This suggests potential applications in information extraction, news aggregation, and content summarization.
 
 ## Contributing
 
@@ -47,6 +47,6 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions about the project, please contact me on my GitHub profile.
+Please contact me on my GitHub profile if you have any questions or suggestions about the project.
 
 Happy coding! 🚀
