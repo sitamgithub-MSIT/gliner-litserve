@@ -47,6 +47,6 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 
 ## Contact
 
-Please contact me on my GitHub profile if you have any questions or suggestions about the project.
+Please get in touch with me on my GitHub profile if you have any questions or suggestions about the project.
 
 Happy coding! 🚀
