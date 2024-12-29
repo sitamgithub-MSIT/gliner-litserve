@@ -2,7 +2,7 @@
 
 [![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/gliner-litserve)
 
-[GLiNER](https://huggingface.co/knowledgator/modern-gliner-bi-large-v1.0), a flexible Named Entity Recognition model using a bi-encoder architecture ([ModernBERT-large](https://huggingface.co/answerdotai/ModernBERT-large) and [BGE-base-en](https://huggingface.co/BAAI/bge-base-en-v1.5)), overcomes limitations of traditional NER and LLMs by enabling recognition of unlimited entities with faster inference and better generalization, while offering superior efficiency compared to DeBERTa-based models. This project demonstrates using the GLiNER model for the Named Entity Recognition (NER) task served using LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
+[GLiNER](https://github.com/urchade/GLiNER), a flexible Named Entity Recognition model using a BERT-like architecture, offers a cost-effective alternative to traditional NER and LLMs for identifying diverse entity types in resource-constrained environments. ModernGLiNER, a GLiNER model version that utilizes a bi-encoder architecture ([ModernBERT-large](https://huggingface.co/answerdotai/ModernBERT-large) and [BGE-base-en](https://huggingface.co/BAAI/bge-base-en-v1.5)), overcomes limitations of traditional unicoder GLiNER models by enabling recognition of unlimited entities with faster inference for preprocessed embeddings and better generalization to unseen entities. This project demonstrates using the GLiNER model for the Named Entity Recognition (NER) task served using LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
 
 ## Project Structure
 
