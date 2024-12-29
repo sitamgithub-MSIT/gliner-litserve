@@ -19,6 +19,9 @@ class GLiNERAPI(ls.LitAPI):
         """
         Sets up the GLiNER model for prediction.
         """
+        # Enable TensorFloat32 tensor cores for better performance
+        torch.set_float32_matmul_precision('high')
+
         # Load the GLiNER model from the Hugging Face model hub
         model_name = "knowledgator/modern-gliner-bi-large-v1.0"
         self.model = GLiNER.from_pretrained(model_name, max_len=2048).to(device)
